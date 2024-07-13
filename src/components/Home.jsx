@@ -13,7 +13,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold">Explore Philippines</h1>
             <p className="mt-4">Experience the best destination in Philippines</p>
             <div className="mt-8 flex justify-center space-x-4">
-              <button className="bg-orange-500 text-black hover:bg-orange-600 px-4 py-2 rounded-full">
+              <button className="bg-orange-500 text-black hover:bg-orange-600 px-4 py-2 rounded-full font-bold">
                 Learn More
               </button>
             </div>
@@ -34,7 +34,7 @@ const Home = () => {
             <p className="mt-4 text-black font-semibold">
               From the white sands of Boracay to the breathtaking Chocolate Hills of Bohol, the Philippines offers a diverse range of attractions. Experience the warmth and hospitality of the Filipino people while enjoying world-class amenities and unique local flavors.
             </p>
-            <button className="mt-4 bg-orange-500 text-black hover:bg-orange-600 px-4 py-2 rounded-full">Learn More</button>
+            <button className="mt-4 bg-orange-500 text-black hover:bg-orange-600 px-4 py-2 rounded-full font-semibold">Explore More</button>
           </div>
         </div>
       </div>
