@@ -1,4 +1,4 @@
-import logo from "../assets/travelicon.jpg";
+import logo from "../assets/ph.png";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex justify-center items-center space-x-10 text-lg">
             <a href="Home" className="hover:text-red-500">Home</a>
-            <a href="#" className="hover:text-red-500">About</a>
+            <a href="About" className="hover:text-red-500">About</a>
             <a href="#" className="hover:text-red-500">Services</a>
             <a href="#" className="hover:text-red-500">Contact</a>
           </div>
