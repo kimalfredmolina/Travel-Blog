@@ -21,22 +21,25 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="About" className="bg-foreground text-background py-20">
+      <div id="About" className="bg-foreground text-black py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 p-4">
-            <img src={bg2} alt="Cabin Interior" className="rounded shadow-lg" />
+            <img src={bg2} alt="Philippines Beach" className="rounded shadow-lg" />
           </div>
           <div className="md:w-1/2 p-4">
-            <h2 className="text-3xl font-bold">Why choose The Cabin Pros?</h2>
-            <p className="mt-4">
-              We offer the most luxurious cabins with top-notch amenities and breathtaking views. Our cabins are located in the most serene and picturesque locations, providing you with a perfect getaway
-              from the hustle and bustle of city life.
+            <h2 className="text-3xl font-bold">Why Visit The Philippines?</h2>
+            <p className="mt-4 text-black font-bold">
+              Discover the Philippines, an archipelago of over 7,000 islands boasting stunning beaches, vibrant culture, and unparalleled natural beauty. Whether you're seeking adventure, relaxation, or cultural experiences, the Philippines has something for everyone.
             </p>
-            <p className="mt-4">Our team ensures that every cabin is well-maintained and equipped with everything you need for a comfortable stay. From cozy fireplaces to modern kitchens, we have it all.</p>
-            <button className="mt-4 bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded">Learn More</button>
+            <p className="mt-4 text-black font-semibold">
+              From the white sands of Boracay to the breathtaking Chocolate Hills of Bohol, the Philippines offers a diverse range of attractions. Experience the warmth and hospitality of the Filipino people while enjoying world-class amenities and unique local flavors.
+            </p>
+            <button className="mt-4 bg-orange-500 text-black hover:bg-orange-600 px-4 py-2 rounded-full">Learn More</button>
           </div>
         </div>
       </div>
+
+
     </div>
   );
 }
