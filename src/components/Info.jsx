@@ -52,7 +52,7 @@ const Info = () => {
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={vis1} alt="Tvis1" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Cebu</h3>
+              <h3 className="text-xl font-semibold">Cebu City, Cebu</h3>
             </div>
           </div>
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
