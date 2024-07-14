@@ -7,7 +7,7 @@ const Home = () => {
       <div className="mt-16">
         <div 
           id="Home" 
-          className="bg-cover bg-center text-center text-white py-20" 
+          className="bg-cover bg-center text-center text-white py-20 rounded-lg" 
           style={{ backgroundImage: `url(${bg})` }}>
           <div className="container mx-auto">
             <h1 className="text-5xl font-bold">Explore Philippines</h1>
@@ -24,7 +24,7 @@ const Home = () => {
       <div id="About" className="bg-foreground text-black py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 p-4">
-            <img src={bg2} alt="Philippines Beach" className="rounded shadow-lg" />
+            <img src={bg2} alt="Philippines Beach" className="rounded-lg" />
           </div>
           <div className="md:w-1/2 p-4">
             <h2 className="text-3xl font-bold">Why Visit The Philippines?</h2>
