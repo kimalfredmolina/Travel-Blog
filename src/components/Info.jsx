@@ -22,25 +22,25 @@ const Info = () => {
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={luz1} alt="Luz1" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Ilocos Norte</h3>            
+              <h3 className="text-xl font-semibold">Vigan, Ilocos Norte</h3>            
             </div>
           </div>
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={luz2} alt="Luz2" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Ifuogao</h3>
+              <h3 className="text-xl font-semibold">Banaue, Ifuogao</h3>
             </div>
           </div>
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={luz3} alt="Luz3" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Bicol</h3>
+              <h3 className="text-xl font-semibold">Albay, Bicol</h3>
             </div>
           </div>
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={luz4} alt="Luz4" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Pangasinan</h3>
+              <h3 className="text-xl font-semibold">Alaminos, Pangasinan</h3>
             </div>
           </div>
         </div>
@@ -64,13 +64,13 @@ const Info = () => {
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={vis3} alt="vis3" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Bohol</h3>
+              <h3 className="text-xl font-semibold">Carmen, Bohol</h3>
             </div>
           </div>
           <div className="card bg-white shadow-md rounded-lg p-4 relative">
             <img src={vis4} alt="vis4" className="rounded-lg"/>
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white w-full text-center">
-              <h3 className="text-xl font-semibold">Guimaras</h3>
+              <h3 className="text-xl font-semibold">Nueva Valencia, Guimaras</h3>
             </div>
           </div>
         </div>
