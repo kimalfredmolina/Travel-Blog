@@ -18,13 +18,13 @@ const Footer = () => {
           <div className="md:text-right">
             <h2 className="text-2xl font-bold mb-4 text-black">Follow Us</h2>
             <div className="flex justify-end space-x-6">
-              <a href="#" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
+              <a href="https://www.facebook.com/kimalfred.amolina" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
                 <FaFacebook size={29} />
               </a>
               <a href="#" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
                 <FaInstagram size={29} />
               </a>
-              <a href="#" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
+              <a href="https://github.com/kimalfred" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
                 <FaGithub size={29} />
               </a>
             </div>
