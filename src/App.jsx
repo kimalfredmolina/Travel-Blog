@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Info from "./components/Info"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Home />
         <Info />
+        <Footer />
       </div>
     </div>
   );

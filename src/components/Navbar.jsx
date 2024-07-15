@@ -13,6 +13,7 @@ const Navbar = () => {
           <div className="flex-1 flex justify-center items-center space-x-10 text-lg">
             <a href="Home" className="hover:text-red-500 font-bold">Home</a>
             <a href="About" className="hover:text-red-500 font-bold">About</a>
+            <a href="#" className="hover:text-red-500 font-bold">Tourist Spot</a>
             <a href="#" className="hover:text-red-500 font-bold">Services</a>
             <a href="#" className="font-bold hover:text-red-500">Contact</a>
           </div>
