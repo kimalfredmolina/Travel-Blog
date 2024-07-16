@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-primary-foreground py-12 px-4 md:px-8">
+      <footer className="bg-neutral-500 text-primary-foreground py-12 px-4 md:px-8 mt-8 rounded-lg">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-2xl font-bold mb-4 text-black">Explore More</h2>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 text-center text-muted-foreground text-black font-semibold">&copy; 2023 Your Company. All rights reserved.</div>
+        <div className="mt-8 text-center text-muted-foreground text-black font-semibold">&copy; 2024 @kimalfred. All rights reserved.</div>
       </footer>
     </div>
   )

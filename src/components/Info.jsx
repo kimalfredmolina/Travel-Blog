@@ -81,7 +81,7 @@ const Info = () => {
         </div>
       </div>
 
-      <div className="programs-section mt-8">
+      <div className="programs-section mt-8 mb-8">
         <h2 className="text-2xl font-bold mb-4 text-black">Mindanao Tourist Spot</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="card bg-white shadow-2xl rounded-lg p-4 relative">
