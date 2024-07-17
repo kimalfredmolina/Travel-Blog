@@ -12,11 +12,11 @@ const Navbar = () => {
             </a>
           </div>
           <div className="flex-1 flex justify-center items-center space-x-10 text-lg">
-            <a href="Home" className="hover:text-red-500 font-bold">Home</a>
-            <a href="About" className="hover:text-red-500 font-bold">About</a>
-            <a href="#" className="hover:text-red-500 font-bold">Tourist Spot</a>
-            <a href="#" className="hover:text-red-500 font-bold">Services</a>
-            <a href="#" className="font-bold hover:text-red-500">Contact</a>
+            <a href="Home" className="hover:text-orange-600 font-bold">Home</a>
+            <a href="About" className="hover:text-orange-600 font-bold">About</a>
+            <a href="#" className="hover:text-orange-600 font-bold">Tourist Spot</a>
+            <a href="#" className="hover:text-orange-600 font-bold">Services</a>
+            <a href="#" className="hover:text-orange-600 font-bold">Contact</a>
           </div>
           <div className="flex-shrink-0 hover:text-orange-600 transition-colors duration-300">
             <a href="#">

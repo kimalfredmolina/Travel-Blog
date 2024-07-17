@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Info from "./components/Info"
 import Footer from "./components/Footer"
+import Services from "./components/Services"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Navbar />
         <Home />
         <Info />
+        <Services />
         <Footer />
       </div>
     </div>
