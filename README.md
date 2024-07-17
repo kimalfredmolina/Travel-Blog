@@ -1,4 +1,4 @@
-# Travel Blog Website
+# Travel Blog Website Using Reactjs & Tailwind CSS
 
 ## Installation
 
