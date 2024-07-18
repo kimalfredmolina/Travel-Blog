@@ -15,7 +15,7 @@ import min4 from "../assets/min4.webp";
 
 const Info = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div id="info" className="container mx-auto p-4">
 
       <div className="text-black w-full text-center">
         <h1 className="text-5xl font-bold">Philippines Tourist Attractions</h1>

@@ -2,7 +2,7 @@ import background from '../assets/phbg.avif';
 
 const Contact = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-cover bg-center rounded-lg" 
+    <div id="contact" className="flex items-center justify-center min-h-screen bg-cover bg-center rounded-lg" 
       style={{ backgroundImage: `url(${background})` }}>
       <div className="bg-black bg-opacity-80 p-8 rounded-lg shadow-lg max-w-lg w-full">
         <h2 className="text-3xl font-bold text-center mb-8 text-white">Contact Us</h2>
