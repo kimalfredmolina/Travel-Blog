@@ -1,4 +1,4 @@
-import background from '../assets/phbg.jpg';
+import background from '../assets/phbg.avif';
 
 const Contact = () => {
   return (
