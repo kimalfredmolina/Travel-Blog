@@ -3,7 +3,7 @@ import { FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 w-full text-black z-50 font-poppins">
+    <div className="fixed top-0 left-0 w-full text-black z-50 font-poppins bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
