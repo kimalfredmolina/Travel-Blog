@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-neutral-500 text-primary-foreground py-12 px-4 md:px-8 mt-8 rounded-lg">
+      <footer className="text-primary-foreground py-12 px-4 md:px-8 mt-8">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-2xl font-bold mb-4 text-black">Explore More</h2>
