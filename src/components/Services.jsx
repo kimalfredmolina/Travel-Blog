@@ -10,7 +10,7 @@ import likeIcon from '../assets/like.png';
 const Services = () => {
   const services = [
     { icon: airplaneIcon, title: 'Airport assistance' },
-    { icon: limoIcon, title: 'Private airport transfers & limousine service' },
+    { icon: limoIcon, title: 'Private airport transfers & car service' },
     { icon: hotelIcon, title: 'Hotel reservations & private accommodations' },
     { icon: chefIcon, title: 'Private chef & catering service' },
     { icon: ticketsIcon, title: 'Organization of tickets for cultural events & exhibitions' },
