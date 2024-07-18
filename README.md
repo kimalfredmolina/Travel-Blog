@@ -1,3 +1,7 @@
+# Travel Blog Website Using Reactjs & Tailwind CSS
+
+Simple Philippines Travel Blog website, showcasing beautiful and most tourist attractions in the Philippines.
+
 ## Installation
 
 Tailwind CSS
