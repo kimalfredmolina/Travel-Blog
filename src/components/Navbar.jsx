@@ -1,5 +1,6 @@
 import logo from "../assets/ph.png";
 import { FaUser } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -19,9 +20,9 @@ const Navbar = () => {
             <a href="#contact" className="hover:text-orange-600 font-bold">Contact</a>
           </div>
           <div className="flex-shrink-0 hover:text-orange-600 transition-colors duration-300">
-            <a href="#">
+            <Link to="/login">
               <FaUser size={29} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
