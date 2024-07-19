@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 import background from '../assets/tourist.mp4';
 
 const Login = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100"
-      style={{ backgroundImage: `url(${background})` }}>
-      <div className="bg-white p-8 rounded-lg shadow-lg w-96">
+    <div className="min-h-screen flex flex-col items-center justify-center relative">
+      <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover z-[-1]">
+        <source src={background} type="video/mp4" />
+      </video>
+      <div className="bg-white p-8 rounded-lg shadow-lg w-96 relative z-10">
         <h2 className="text-2xl font-bold text-center mb-4 text-black">Login into account</h2>
         <form>
           <div className="mb-4">
@@ -41,15 +41,15 @@ const Login = () => {
         <div className="mt-4 text-center text-black">
           <p>or login with</p>
           <div className="flex justify-center space-x-4 mt-2">
-              <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
-                <FaFacebook size={34} />
-              </a>
-              <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
-                <FaInstagram size={34} />
-              </a>
-              <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
-                <FaGithub size={34} />
-              </a>
+            <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
+              <FaFacebook size={34} />
+            </a>
+            <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
+              <FaInstagram size={34} />
+            </a>
+            <a href="#" className="text-2xl text-black hover:text-green-500 transition-colors duration-300">
+              <FaGithub size={34} />
+            </a>
           </div>
           <p className="mt-4">
             Don't have an account? <a href="#" className="text-green-500 hover:underline">Register here</a>
