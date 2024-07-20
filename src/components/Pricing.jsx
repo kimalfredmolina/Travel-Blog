@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
   return (
@@ -17,7 +17,7 @@ const Pricing = () => {
               <li className="mb-2">Buffet</li>
             </ul>
           </div>
-          <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</button>
+          <Link to="/register" className="text-center w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</Link>
         </div>
         <div className="bg-gray-300 p-8 rounded-lg shadow-lg w-full md:w-80 flex flex-col justify-between">
           <div>
@@ -32,7 +32,7 @@ const Pricing = () => {
               <li className="mb-2">Buffet</li>
             </ul>
           </div>
-          <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</button>
+          <Link to="/register" className="text-center w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</Link>
         </div>
         <div className="bg-gray-300 p-8 rounded-lg shadow-lg w-full md:w-80 flex flex-col justify-between">
           <div>
@@ -48,10 +48,10 @@ const Pricing = () => {
               <li className="mb-2">Priority Customer</li>
             </ul>
           </div>
-          <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</button>
+          <Link to="/register" className="text-center w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg">Get Started</Link>
         </div>
       </div>
-      <p className="mt-4 text-black mt-8">Contact us for Enterprise plans or for teams larger than 25 members.</p>
+      <p className="mt-4 text-black mt-8">Contact us for Tourist plans larger than 25 persons.</p>
     </div>
   );
 };

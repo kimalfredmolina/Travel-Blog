@@ -12,7 +12,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold">Explore Philippines</h1>
             <p className="mt-4">Experience the best destination in Philippines</p>
             <div className="mt-8 flex justify-center space-x-4">
-              <Link to="/login" className="bg-orange-500 text-black hover:bg-orange-600 px-6 py-3 rounded-full font-bold">
+              <Link to="/register" className="bg-orange-500 text-black hover:bg-orange-600 px-6 py-3 rounded-full font-bold">
                 Subscribe
               </Link>
             </div>
