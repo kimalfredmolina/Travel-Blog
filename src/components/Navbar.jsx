@@ -17,6 +17,7 @@ const Navbar = () => {
             <a href="#about" className="hover:text-orange-600 font-bold">About</a>
             <a href="#info" className="hover:text-orange-600 font-bold">Tourist Spot</a>
             <a href="#services" className="hover:text-orange-600 font-bold">Services</a>
+            <a href="#pricing" className="hover:text-orange-600 font-bold">Pricing</a>
             <a href="#contact" className="hover:text-orange-600 font-bold">Contact</a>
           </div>
           <div className="flex-shrink-0 hover:text-orange-600 transition-colors duration-300">

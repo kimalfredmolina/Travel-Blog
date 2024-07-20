@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import Info from "./components/Info"
 import Footer from "./components/Footer"
 import Services from "./components/Services"
+import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import Login from "./components/Login"
 import Register from "./components/Register"
@@ -29,6 +30,9 @@ const App = () => {
             </div>
             <div id="services">
               <Services />
+            </div>
+            <div id="pricing">
+              <Pricing />
             </div>
             <div id="contact">
               <Contact />
