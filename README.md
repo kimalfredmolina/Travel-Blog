@@ -1,7 +1,7 @@
 # Travel Blog Website Using Reactjs & Tailwind CSS
 ![image](https://github.com/user-attachments/assets/646298a4-60db-4bb0-b8f0-a1051a024c40)
 
-Simple Philippines Travel Blog website, showcasing beautiful and most tourist attractions in the Philippines.
+Simple Philippine Travel Blog website, showcasing beautiful and most tourist attractions in the Philippines.
 
 ## Installation
 
