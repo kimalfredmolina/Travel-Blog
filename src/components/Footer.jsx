@@ -24,7 +24,7 @@ const Footer = () => {
               <a href="#" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
                 <FaInstagram size={29} />
               </a>
-              <a href="https://github.com/kimalfred" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
+              <a href="https://github.com/kimalfredmolina" className="text-2xl text-black hover:text-orange-600 transition-colors duration-300">
                 <FaGithub size={29} />
               </a>
             </div>
